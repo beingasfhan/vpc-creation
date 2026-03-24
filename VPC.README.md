@@ -108,13 +108,6 @@ In this step, we created an Internet Gateway and attached it to the VPC that we 
 
 ---
 
-
-```
-
-> Add your AWS console screenshots into the **screenshots** folder with the above names.
-
----
-
 ##  Summary
 
 The VPC has been configured with two subnets, a public subnet, and a private subnet. If a subnet's traffic is routed to an Internet gateway, the subnet is known as a public subnet. If a subnet doesn't have a route to the Internet gateway, the subnet is known as a private subnet. Instances launched in a private subnet do not have publicly routable internet addresses either.
